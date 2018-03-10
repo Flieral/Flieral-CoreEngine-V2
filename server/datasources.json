@@ -1,1 +1,15 @@
-{}
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "FlieralCoreEngineDB",
+    "name": "mongoDs",
+    "maxRows": 2000,
+    "connector": "mongodb"
+  }
+}
