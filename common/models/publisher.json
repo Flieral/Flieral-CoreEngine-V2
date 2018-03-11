@@ -33,6 +33,11 @@
       "type": "hasOne",
       "model": "account",
       "foreignKey": "publisherId"
+    },
+    "applicationsRel": {
+      "type": "hasMany",
+      "model": "application",
+      "foreignKey": "publisherId"
     }
   },
   "acls": [],
