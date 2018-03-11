@@ -43,6 +43,11 @@
       "type": "hasMany",
       "model": "network",
       "foreignKey": "publisherId"
+    },
+    "statisticsRel": {
+      "type": "hasMany",
+      "model": "statistic",
+      "foreignKey": "publisherId"
     }
   },
   "acls": [],
