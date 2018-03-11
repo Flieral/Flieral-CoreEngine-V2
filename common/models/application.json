@@ -38,6 +38,11 @@
       "type": "belongsTo",
       "model": "publisher",
       "foreignKey": "publisherId"
+    },
+    "placementsRel": {
+      "type": "hasMany",
+      "model": "placement",
+      "foreignKey": "applicationId"
     }
   },
   "acls": [],
