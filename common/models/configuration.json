@@ -42,7 +42,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "placementRel": {
+      "type": "belongsTo",
+      "model": "placement",
+      "foreignKey": "placementId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
