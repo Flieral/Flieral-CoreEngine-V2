@@ -38,6 +38,11 @@
       "type": "hasMany",
       "model": "application",
       "foreignKey": "publisherId"
+    },
+    "networksRel": {
+      "type": "hasMany",
+      "model": "network",
+      "foreignKey": "publisherId"
     }
   },
   "acls": [],
