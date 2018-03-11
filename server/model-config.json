@@ -59,5 +59,9 @@
   "publisher": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "statistic": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
