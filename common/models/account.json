@@ -1,5 +1,5 @@
 {
-  "name": "accountInfo",
+  "name": "account",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
