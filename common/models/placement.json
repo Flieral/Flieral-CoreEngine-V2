@@ -53,6 +53,11 @@
       "type": "belongsTo",
       "model": "application",
       "foreignKey": "applicationId"
+    },
+    "configurationRel": {
+      "type": "hasOne",
+      "model": "configuration",
+      "foreignKey": "placementId"
     }
   },
   "acls": [],
