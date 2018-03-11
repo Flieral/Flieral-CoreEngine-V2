@@ -7,7 +7,7 @@
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "database": "FlieralCoreEngineDB",
+    "database": "FlieralCoreEngineInfoDB",
     "name": "mongoDs",
     "maxRows": 2000,
     "connector": "mongodb"
