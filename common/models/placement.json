@@ -48,7 +48,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "applicationRel": {
+      "type": "belongsTo",
+      "model": "application",
+      "foreignKey": "applicationId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
