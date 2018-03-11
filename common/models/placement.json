@@ -1,0 +1,54 @@
+{
+  "name": "placement",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "beginningTime": {
+      "type": "number",
+      "required": true
+    },
+    "endingTime": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "style": {
+      "type": "string",
+      "required": true
+    },
+    "loadPriority": {
+      "type": "string",
+      "required": false,
+      "default": "Low"
+    },
+    "onlineCapacity": {
+      "type": "number",
+      "required": false,
+      "default": 3
+    },
+    "offlineCapacity": {
+      "type": "number",
+      "required": false,
+      "default": 3
+    },
+    "addition": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
