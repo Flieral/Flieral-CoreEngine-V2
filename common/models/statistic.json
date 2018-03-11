@@ -39,6 +39,11 @@
       "type": "belongsTo",
       "model": "application",
       "foreignKey": "applicationId"
+    },
+    "placementRel": {
+      "type": "belongsTo",
+      "model": "placement",
+      "foreignKey": "placementId"
     }
   },
   "acls": [],
